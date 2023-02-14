@@ -1,10 +1,10 @@
-import { SafeAreaView, Image, TouchableOpacity } from "react-native";
-import { HomeTop } from "../components";
+import { Image, SafeAreaView } from "react-native";
 import React from "react";
 import tw from "twrnc";
 import { useNavigation } from "@react-navigation/native";
+import { TouchableOpacity } from "react-native-web";
 
-const Home = () => {
+const Map = () => {
   const navigation = useNavigation();
   return (
     <SafeAreaView style={tw`h-full bg-white`}>
@@ -19,9 +19,8 @@ const Home = () => {
           }}
         />
       </TouchableOpacity>
-      <HomeTop />
     </SafeAreaView>
   );
 };
 
-export default Home;
+export default Map;
