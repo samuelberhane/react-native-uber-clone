@@ -1,8 +1,9 @@
-import { Image, SafeAreaView } from "react-native";
+import { Image, SafeAreaView, TouchableOpacity } from "react-native";
 import React from "react";
 import tw from "twrnc";
 import { useNavigation } from "@react-navigation/native";
-import { TouchableOpacity } from "react-native-web";
+
+// AIzaSyBvFz90HDe7MlMG_3YvE6oxnTAAwD5lx5c
 
 const Map = () => {
   const navigation = useNavigation();
